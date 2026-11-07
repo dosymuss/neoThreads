@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# 🚀 NeoThreads — Threads Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**NeoThreads** — это командный выпускной проект, разработанный в рамках профессиональной стажировки в [Neobis]
 
-## Available Scripts
+Проект представляет собой веб-приложение, повторяющее основные возможности социальной сети [Threads](https://www.threads.net/). Пользователи могут регистрироваться, авторизовываться, создавать публикации и просматривать контент в общей ленте.
 
-In the project directory, you can run:
+Цель проекта — получить практический опыт командной разработки, построения компонентной архитектуры и реализации клиентской логики на React.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📸 Preview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![NeoThreads Preview](./public/neoThreads.png)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Основные возможности
 
-### `npm run build`
+- 🔐 **Регистрация и авторизация** — формы входа и создания аккаунта с валидацией пользовательских данных.
+- 📝 **Создание публикаций** — возможность создавать и публиковать текстовые посты.
+- 📰 **Лента публикаций** — просмотр опубликованных тредов пользователей.
+- 🎨 **Современный интерфейс** — дизайн, вдохновлённый оригинальной социальной сетью Threads.
+- 📱 **Адаптивная вёрстка** — интерфейс, адаптированный под различные размеры экранов.
+- ⚛️ **Компонентная архитектура** — разделение приложения на переиспользуемые React-компоненты.
+- 🔄 **Управление состоянием** — организация и обработка состояния приложения.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Технологический стек
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Категория | Технологии |
+|---|---|
+| Frontend | React, JavaScript |
+| Разметка | HTML5 |
+| Стилизация | SCSS, CSS Modules |
+| Управление состоянием | Redux Toolkit |
+| Работа с формами | Formik, Yup |
+| HTTP-запросы | Axios |
+| Авторизация | Google OAuth |
+| Инструменты | Git, GitHub, npm, VS Code |
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 💻 Локальный запуск проекта
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Для запуска проекта на локальном компьютере необходимо выполнить следующие шаги.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 1. Клонирование репозитория
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone <REPOSITORY_URL>
+```
 
-## Learn More
+### 2. Переход в директорию проекта
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+cd neoThreads
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 3. Установка зависимостей
 
-### Code Splitting
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 4. Запуск приложения
 
-### Analyzing the Bundle Size
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+После успешного запуска приложение будет доступно в браузере по адресу:
 
-### Making a Progressive Web App
+[http://localhost:3000](http://localhost:3000)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 👥 Команда проекта
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Проект разработан в рамках командной работы во время профессиональной стажировки. В команде участвовали 5 человек.
 
-### Deployment
+### Мой вклад в проект
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Дастан Алмазбеков — Frontend Developer / Frontend Systems Engineer**
 
-### `npm run build` fails to minify
+В рамках проекта отвечал за разработку клиентской части приложения:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Реализация интерфейса и пользовательских компонентов на React.
+- Разработка форм регистрации и авторизации.
+- Реализация клиентской логики приложения.
+- Работа с состоянием приложения и обработкой пользовательских действий.
+- Интеграция интерфейсных компонентов в общую архитектуру проекта.
+- Участие в формировании структуры и организации Frontend-кода.
+
+---
+
+## 🎥 Презентация проекта
+
+Проект был представлен в рамках итоговой презентации стажировки.
+
+📸 [Посмотреть выступление команды в Instagram](https://www.instagram.com/p/CyYBcVnoyBN/)
+
+---
+
+## 📌 Статус проекта
+
+**Завершён.** Проект разработан в рамках выпускной командной работы на профессиональной стажировке.
+
+---
+
+⭐ Если проект оказался полезным или интересным, буду рад вашей оценке!
