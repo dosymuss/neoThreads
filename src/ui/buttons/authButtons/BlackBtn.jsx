@@ -1,0 +1,21 @@
+import styles from "./BlackBtn.module.css";
+
+const BlackBtn = ({ children, onClick, dis }) => {
+  let a = 5;
+
+  return(
+  <>
+    <button
+      type="submit"
+      onClick={onClick}
+      disabled={dis}
+      className={styles.button}
+    >
+      {children}
+    </button>
+  </>
+
+  )
+};
+
+export default BlackBtn;
